@@ -8,7 +8,6 @@ export default function manageRestaurants(state = {
   switch (action.type) {
 
     case 'ADD_RESTAURANT':
-
       const restaurant = { text: action.text, id: cuidFn() };
       return {
         ...state,
